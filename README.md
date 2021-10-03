@@ -1,1 +1,1 @@
-# Netflix-Clone-firease-and-redux-
+# Netflix-Clone-firebase-and-redux-
