@@ -1,0 +1,102 @@
+.signInScreen {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+.signInScreen > h1 {
+  text-align: left;
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: white;
+}
+.signInScreen__form {
+  display: flex;
+  flex-direction: column;
+}
+.signInScreen__input {
+  padding: 10px 20px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(29, 28, 28);
+  color: wheat;
+  border: none;
+  outline: none;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+.signInScreen__btn {
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+.signInScreen__check {
+  margin: 1rem 0;
+  color: rgb(29, 28, 28);
+  display: flex;
+  align-items: center;
+}
+.signInScreen__check > input {
+  margin-right: 0.3rem;
+}
+.signInScreen__check > p {
+  color: white;
+}
+p {
+  text-align: left;
+  color: rgb(51, 46, 46);
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .signInScreen {
+    width: 60%;
+    margin-top: 5rem;
+  }
+  .signInScreen > h1 {
+    font-size: 2.3rem;
+  }
+  .signInScreen__input {
+    padding: 8px 15px;
+    height: 24px;
+  }
+  .signInScreen__btn {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  .signInScreen__check {
+    margin: 1rem 0;
+    color: rgb(29, 28, 28);
+    display: flex;
+    align-items: center;
+  }
+  .signInScreen__check > input {
+    margin-right: 0.3rem;
+  }
+  .signInScreen__check > p {
+    color: white;
+  }
+  p {
+    text-align: left;
+    color: rgb(51, 46, 46);
+    font-weight: 600;
+  }
+  a {
+    text-decoration: none;
+  }
+}

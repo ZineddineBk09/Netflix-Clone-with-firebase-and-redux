@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+}
+
+.App {
+  position: relative;
+  color: white;
+  background-color: #111;
+  text-align: center;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  color: red;
+
+}

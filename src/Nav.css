@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  height: 65px;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  z-index: 1;
+}
+.nav__black {
+  background-color: black;
+}
+.nav__logo {
+  width: 70px;
+  object-fit: contain;
+  cursor: pointer;
+  padding: 0 2rem;
+}
+.nav__avatar {
+  width: 40px;
+  object-fit: contain;
+  padding: 0 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    height: 55px;
+    padding: 2px 1rem;
+  }
+  .nav__avatar{
+    padding: 0 3rem;
+  }
+  .nav__logo{
+    padding: 0 .8rem;
+  }
+}
